@@ -1,0 +1,33 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: rgb(43, 16, 16);
+}
+
+.List {
+    display: flex;
+    gap: 5vw;
+
+}
+
+.ListItem {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: #fff;
+}
+
+.ListItem a {
+    padding: 5px 30px 5px 35px ;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ListItem a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .8s;
+}
